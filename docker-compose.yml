@@ -17,3 +17,11 @@ services:
       - ./data:/data/db
     ports:
       - 27017:27017
+  mongoex:
+    container_name: mongoex
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    links:
+      - mongo

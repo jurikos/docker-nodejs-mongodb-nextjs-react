@@ -9,3 +9,9 @@ Setup Node.js app using Docker
 `cd docker-nodejs-mongodb-nextjs-react`
 
 `docker-compose up`
+
+# URLs
+
+App Frontend: `http://localhost:3000`
+
+Database Web Interface: `http://localhost:8081`
