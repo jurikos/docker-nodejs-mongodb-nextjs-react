@@ -1,4 +1,5 @@
 .idea
+.next
+data
 node_modules
 yarn.lock
-.next
